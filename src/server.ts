@@ -1,6 +1,6 @@
 import express, { urlencoded, json } from "express";
 import { error, notFound } from './middleware';
-import greatCometsRouter from "./routes";
+import greatCometsRouter from "./routes/greatComets";
 
 const app = express();
 app.use(urlencoded({ extended: true }));

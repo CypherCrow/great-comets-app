@@ -1,2 +1,2 @@
-export * from './error.ts';
-export * from './not-found.ts';
+export * from './error';
+export * from './not-found';
