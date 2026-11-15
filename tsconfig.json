@@ -39,7 +39,7 @@
     "noUncheckedSideEffectImports": true,
     "moduleDetection": "force",
     "skipLibCheck": true,
-    "moduleResolution": "nodenext",
+    "moduleResolution": "NodeNext",
     "rewriteRelativeImportExtensions": true,
     "allowImportingTsExtensions": true,
     "esModuleInterop": true,

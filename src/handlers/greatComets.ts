@@ -38,7 +38,7 @@ export async function getGreatComet(req: Request, res: Response, next: NextFunct
         const greatComet = await db
             .select()
             .from(GreatCometsTable)
-            .where(eq(GreatCometsTable.id, +req.params.id));
+            .where(eq(GreatCometsTable.id, +req.params.id!));
         res.status(200).json({ greatComet });
     } catch (error) {
         next(new CustomError("Failed to fetch great comet", 500));
