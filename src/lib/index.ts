@@ -1,2 +1,2 @@
-export * from "./custom-error.ts";
-export * from "./validator-functions.ts";
+export * from "./custom-error";
+export * from "./validator-functions";

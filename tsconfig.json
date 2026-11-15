@@ -7,7 +7,7 @@
 
     // Environment Settings
     // See also https://aka.ms/tsconfig/module
-    "module": "nodenext",
+    "module": "esnext",
     "target": "es2016",
     // For nodejs:
     "lib": ["esnext"],
@@ -39,7 +39,7 @@
     "noUncheckedSideEffectImports": true,
     "moduleDetection": "force",
     "skipLibCheck": true,
-    "moduleResolution": "NodeNext",
+    "moduleResolution": "bundler",
     "rewriteRelativeImportExtensions": true,
     "allowImportingTsExtensions": true,
     "esModuleInterop": true,

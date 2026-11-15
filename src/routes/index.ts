@@ -1,1 +1,1 @@
-export * from './greatComets.ts';
+export * from './greatComets';
