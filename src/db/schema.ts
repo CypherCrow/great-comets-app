@@ -1,4 +1,4 @@
-import { sqliteTable, integer, text, blob } from "drizzle-orm/sqlite-core";
+import { sqliteTable, integer, text } from "drizzle-orm/sqlite-core";
 
 export const GreatCometsTable = sqliteTable('great_comets', {
     id: integer('id').primaryKey(),

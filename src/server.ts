@@ -6,7 +6,7 @@ const app = express();
 app.use(urlencoded({ extended: true }));
 app.use(json());
 
-app.use("/great-comets-api/v1", greatCometsRouter);
+app.use("/api/v1", greatCometsRouter);
 
 app.use(notFound);
 app.use(error);
