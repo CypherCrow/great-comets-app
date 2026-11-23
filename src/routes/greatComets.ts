@@ -1,6 +1,6 @@
 import { Router } from "express";
-import { addGreatComet, getAllGreatComets, getGreatComet } from "../handlers";
-import { validateGreatCometDesignation, validateGreatCometName, validateGreatCometYear, validateIdParam } from "../lib";
+import { addGreatComet, getAllGreatComets, getGreatComet } from "../handlers/index.ts";
+import { validateGreatCometDesignation, validateGreatCometName, validateGreatCometYear, validateIdParam } from "../lib/index.ts";
 
 const greatCometsRouter = Router();
 

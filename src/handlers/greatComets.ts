@@ -1,7 +1,7 @@
-import { Response, Request, NextFunction } from "express";
-import { db } from "../db/index.js";
-import { GreatCometsTable } from "../db/schema.js";
-import { CustomError } from "../lib/custom-error.js";
+import type { Request, Response, NextFunction } from "express";
+import { db } from "../db/index.ts";
+import { GreatCometsTable } from "../db/schema.ts";
+import { CustomError } from "../lib/index.ts";
 import { eq } from "drizzle-orm";
 import { validationResult } from "express-validator";
 

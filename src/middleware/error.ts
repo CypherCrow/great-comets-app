@@ -1,5 +1,5 @@
-import { Request, Response, NextFunction } from "express";
-import { CustomError } from '../lib/custom-error.js';
+import type { Request, Response, NextFunction } from 'express';
+import { CustomError } from '../lib/index.ts';
 
 export function error(
     err: CustomError,
